@@ -1,6 +1,6 @@
-//Promise.all:-
+console.log('Promise.all base example:-\n');
 
-//Promise.all only returns resolved promises. If any promise gets rejected, the full Promise object is rejected.
+console.log('Promise.all returns a resolved promise ONLY if ALL promises get resolved. If any promise gets rejected, the full Promise object is rejected.');
 
 console.log('Promise.all Eg:-\n');
 

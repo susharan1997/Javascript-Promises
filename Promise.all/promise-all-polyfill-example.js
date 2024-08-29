@@ -1,5 +1,7 @@
 console.log('Promise.all polyfill example:-\n');
 
+console.log('Promise.all returns a resolved promise ONLY if ALL promises get resolved. If any promise gets rejected, the full Promise object is rejected.');
+
 const resolvedPromises = [
     Promise.resolve(1),
     Promise.resolve(2),

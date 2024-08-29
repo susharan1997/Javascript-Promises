@@ -1,5 +1,7 @@
 console.log('Promise.allSettled polyfill example:-\n');
 
+console.log('Returns all the rejected & resolved promises along with their status.\n');
+
 const resolvedAndRejectedPromises = [
     Promise.resolve(1),
     Promise.resolve(2),

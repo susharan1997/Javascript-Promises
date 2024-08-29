@@ -1,8 +1,8 @@
 console.log('Promise.any base example:-\n');
-console.log('Promise.any returns the 1st resolved promise. If all promises get rejected, it returns a rejected promise.\n');
+console.log('Promise.any returns ONLY the 1st RESOLVED promise. If all promises get rejected, it returns a rejected promise.\n');
 
 const resolvedPromises = [
-    Promise.resolve(1),
+    Promise.reject(1),
     Promise.resolve(2),
     Promise.reject(3),
   ].map(promise => Promise.resolve(promise));

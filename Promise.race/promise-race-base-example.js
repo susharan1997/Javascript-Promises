@@ -1,5 +1,5 @@
 console.log('Promise.race base Example:-\n');
-console.log('The promises race against each other. As a result 1st promise to get resolved/rejected will be returned.')
+console.log('The promises race against each other. As a result, 1st promise to get resolved/rejected will be returned.')
 
 const createDelay = (value, delay, shouldReject = false) => {
     return new Promise((resolve, reject) => {
